@@ -154,21 +154,21 @@ body {
 	width: 100%;
 	padding: 10px;
 }
-	.widget {
+	.widget-area .widget {
 		display: table-cell;
 		padding: 10px;
 		margin: 0;
 	}
-	.widget-title {
+	.widget-area .widget-title {
 		font-size: 1.1em;
 	}
 	
-	.widget_recent_comments {
+	.widget-area .widget_recent_comments {
 		display: none;	
 	}
 	
-	.widget_search input[type="text"]{
-		width: 100px;
+	.widget-area .widget_search input[type="text"]{
+		width: 120px;
 	}
 	
 	
