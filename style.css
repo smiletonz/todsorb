@@ -85,6 +85,10 @@ body {
 		    width: 220px;
 		    background-color: #2d648d;
 		}
+		.site-navigation .sub-menu li,
+		.site-navigation .children li{
+			display: block;
+		}
 		.site-navigation .sub-menu .sub-menu,
 		.site-navigation .children .children{
 			left: 220px;
