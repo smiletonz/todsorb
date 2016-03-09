@@ -9,7 +9,9 @@
 	</div>
 
 	<div class="content-area">
-
+		<div class="post_area">
+			<h2>Post</h2>
+		</div>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php the_content(); ?>
